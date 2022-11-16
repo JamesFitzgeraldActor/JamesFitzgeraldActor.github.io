@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+.banner {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    background: #f9f9f9;
+    margin-top: -90px;
+    border-radius: 0px 50px 0px 50px;
+    border-radius: 50px;
+}
+
+.headshot, .resume, .contact, .reviews, .reel, .secret {
+    border-top: 100px solid #232323;
+    background-color: #343434;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 50px 0px 50px;
+    border-radius: 50px;
+}
+
+.headshot {
+    background-image: url("divide.png");
+}
+
+.resume {
+    background-image: url("resume.jpeg");
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.resume_box {
+    width: 40%;
+    height: 90%;
+    background: rgb(12, 12, 012, 0.3);
+    color: #f9f9f9;
+    padding-left: 40px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.contact {
+    background-image: url("contact2.jpeg");
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    height: 90%;
+    background: rgb(12, 12, 012, 0.3);
+    color: #f9f9f9;
+    padding-left: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+.reviews {
+    background-image: url("reviews2.jpeg");
+}
+
+.review_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    background: rgb(12, 12, 012, 0.3);
+    color: #f9f9f9;
+    padding-left: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+.reel {
+    background-image: url("reel2.jpeg");
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.secret {
+    background-image: url("contact.jpeg");
+}
+
+a:visited {
+    color: #121212;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+img {
+    width: 98%;
+    border-radius: 50px;
+}
+
+iframe {
+    border-radius: 50px;
+    margin-right: 10px;
+}

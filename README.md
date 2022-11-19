@@ -1,4 +1,4 @@
-<a href="https://jamesfitzgeraldactor.github.io"># Outline</a>
+<a href="https://jamesfitzgeraldactor.github.io" target="_blank"># Outline</a>
 
 ### Setup initial HTML formatting
 

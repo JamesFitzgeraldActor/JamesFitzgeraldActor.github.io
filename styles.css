@@ -102,6 +102,10 @@ body {
     background-image: url("contact.jpeg");
 }
 
+a {
+    color: #f9f9f9;
+}
+
 a:visited {
     color: #f9f9f9;
 }

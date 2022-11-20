@@ -1,16 +1,11 @@
 <a href="https://jamesfitzgeraldactor.github.io" target="_blank"># Outline</a>
 
-### Setup initial HTML formatting
+[] Review Fonts
 
-### Add separate CSS file
+[] Add Resume
 
-### Outline basic shape
+[] Add Contact Info
 
-- 1 and 3 div structure
+[] Add Reel
 
-### Sections
-- Headshot
-- Resume
-- Contact
-- Reviews
-- Reels
+[] Add Reviews

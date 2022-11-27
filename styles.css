@@ -5,7 +5,7 @@ body {
     justify-content: center;
     margin: 10px 0;
     background: #121212;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .banner {
@@ -14,10 +14,11 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 97%;
-    background: #232323;
+    background: linear-gradient(to right, #232323, #454545);
     margin-top: -100px;
     border-radius: 50px;
     color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
 }
 
 .headshot, .resume, .contact, .reviews, .reel, .secret {
@@ -34,11 +35,11 @@ body {
 }
 
 .headshot {
-    background-image: url("divide.png");
+    background-image: url("images/divide.png");
 }
 
 .resume {
-    background-image: url("resume.jpeg");
+    background-image: url("images/resume.jpeg");
     align-items: flex-end;
     justify-content: center;
 }
@@ -54,7 +55,7 @@ body {
 }
 
 .contact {
-    background-image: url("contact2.jpeg");
+    background-image: url("images/contact2.jpeg");
     align-items: flex-end;
     justify-content: center;
 }
@@ -74,7 +75,7 @@ body {
 }
 
 .reviews {
-    background-image: url("reviews2.jpeg");
+    background-image: url("images/reviews2.jpeg");
 }
 
 .review_box {
@@ -91,14 +92,10 @@ body {
 }
 
 .reel {
-    background-image: url("reel2.jpeg");
+    background-image: url("images/reel2.jpeg");
     display: flex;
     align-items: flex-end;
     justify-content: center;
-}
-
-.secret {
-    background-image: url("contact.jpeg");
 }
 
 a {

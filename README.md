@@ -8,9 +8,8 @@
 - [x] Add Contact Info
 - email
 - professional facebook
-- 
 
-- [] Add Reel
+- [ ] Add Reel
 - voiceover reel
 
 - [x] Add Reviews
@@ -20,6 +19,6 @@
 
 - [x] Footer with photo credits - Keith Traux and Sue Ellen pict site for last name
 
-- [] photo carousel in top section
+- [ ] photo carousel in top section
 
-- [] resize for mobile screens
+- [ ] resize for mobile screens

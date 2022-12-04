@@ -19,6 +19,6 @@
 
 - [x] Footer with photo credits - Keith Traux and Sue Ellen pict site for last name
 
-- [ ] photo carousel in top section
+- [x] photo carousel in top section
 
 - [ ] resize for mobile screens

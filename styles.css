@@ -11,7 +11,7 @@ body {
 .seperator {
   height: 120px;
   width: 97%;
-  background: #121212;
+  background: transparent;
   border-radius: 50px 50px 0 0;
   margin: 0;
   padding: 0;
@@ -38,7 +38,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 97%;
-    height: 600px;
+    min-height: 600px;
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,12 +94,12 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     background: rgb(12, 12, 012, 0.3);
     color: #f9f9f9;
-    padding-left: 40px;
-    margin-left: 10px;
+    /* padding-left: 40px;
+    margin-left: 10px; */
     border-radius: 50px;
 }
 
@@ -116,7 +117,7 @@ body {
 }
 
 .mask {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 500px;
 }
 
@@ -138,10 +139,13 @@ body {
   font-size: 30px;
   font-style: italic;
   color: #f9f9f9;
+  padding: 10px;
+  /* flex-wrap: wrap; */
 }
 
 .slider .source {
   font-size: 20px;
+  padding-right: 20px;
   text-align: right;
 }
 
@@ -176,6 +180,10 @@ iframe {
 
 footer {
     color: #f9f9f9;
+}
+
+li {
+  margin-left: 20px;
 }
 
 .fa {
@@ -413,7 +421,7 @@ footer {
     max-width: 100%;
   } */
   .slider-container {
-    height: 500px;
+    height: 600px;
     width: 97%;
     position: relative;
     overflow: hidden;
@@ -460,8 +468,27 @@ footer {
     background-image: url("images/divide.png");
   }
   .slide-2 {
-    background-image: url("images/reel2.jpeg");
+    background-image: url("images/watson.png");
   }
-  .slide-3 {
+  /* .slide-3 {
     background-image: url("images/contact2.jpeg");
+  } */
+  .slide-4 {
+    background-image: url("images/Godot.jpg");
+  }
+  .slide-5 {
+    background-image: url("images/black.png");
+  }
+  .slide-6 {
+    background-image: url("images/headshot2.jpg");
+  }
+  .slide-7 {
+    background-image: url("images/fagin.jpg");
+  }
+  .slide-8 {
+    background-image: url("images/endgame.jpg")
+  }
+  .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8 {
+    background-size: contain;
+    background-repeat: no-repeat;
   }

@@ -492,3 +492,29 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+@media (max-width: 767px) {
+  body {
+    background: green;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: red;
+  }
+
+  .seperator, .banner, .headshot, .resume, .bio, .reviews, .links, .secret {
+    width: 97%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: blue;
+  }
+
+  .seperator, .banner, .headshot, .resume, .bio, .reviews, .links, .secret {
+    width: 1396px;
+  }
+}

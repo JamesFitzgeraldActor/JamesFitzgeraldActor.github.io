@@ -1,0 +1,184 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9f9f9;
+}
+
+.seperator {
+    height: 120px;
+    width: 97%;
+    background: transparent;
+  }
+
+.banner {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 97%;
+    height: 100px;
+    background: linear-gradient(to right, #191919, #232323);
+    border-radius: 50px;
+    color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1000;
+    box-shadow: 4px 4px 20px 2px #000000ff;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    width: 97%;
+    height: 700px;
+    height: 60vw;
+    border: 2px solid #f9f9f9;
+    background: #343434;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.text {
+    position: absolute;
+    border: 2px solid black;
+    width: 40%;
+    height: 80%;
+    background: #0d0d0dcc;
+    padding: 20px 20px;
+    margin-right: 40px;
+    border-radius: 50px;
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume .text img {
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.resume .text img:hover {
+    /* transition: 0.3s; */
+    opacity: 1;
+}
+
+.bio .text {
+    font-size: 1.5vw;
+}
+
+a {
+    color: #f9f9f9;
+}
+
+a:visited {
+    color: #f9f9f9;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.fa {
+    font-size: 200px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+
+
+
+  /* Image Carousel */
+
+  /* img {
+    max-width: 100%;
+  } */
+  .slider-container {
+    height: 600px;
+    width: 97%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+  }
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+  }
+  .menu label:hover,
+  .menu label:focus {
+    background: #1c87c9;
+  }
+  .slide {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+  }
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  .slide-1 {
+    background-image: url("images/divide.png");
+  }
+  .slide-2 {
+    background-image: url("images/watson.png");
+  }
+  /* .slide-3 {
+    background-image: url("images/contact2.jpeg");
+  } */
+  .slide-4 {
+    background-image: url("images/Godot.jpg");
+  }
+  .slide-5 {
+    background-image: url("images/black.png");
+  }
+  .slide-6 {
+    background-image: url("images/headshot2.jpg");
+  }
+  .slide-7 {
+    background-image: url("images/fagin.jpg");
+  }
+  .slide-8 {
+    background-image: url("images/endgame.jpg")
+  }
+  .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }

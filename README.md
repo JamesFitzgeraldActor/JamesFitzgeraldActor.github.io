@@ -22,3 +22,10 @@
 - [x] photo carousel in top section
 
 - [ ] resize for mobile screens
+
+
+
+
+## UPDATE
+
+- [ ] add new images for carousel

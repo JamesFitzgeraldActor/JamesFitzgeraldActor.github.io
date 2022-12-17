@@ -185,14 +185,14 @@ a:hover {
   .slide-2 {
     background-image: url("images/watson.png");
   }
-  /* .slide-3 {
-    background-image: url("images/contact2.jpeg");
-  } */
+  .slide-3 {
+    background-image: url("images/pic03.jpg");
+  }
   .slide-4 {
-    background-image: url("images/Godot.jpg");
+    background-image: url("images/pic04.jpg");
   }
   .slide-5 {
-    background-image: url("images/black.png");
+    background-image: url("images/pic05.jpg");
   }
   .slide-6 {
     background-image: url("images/headshot2.jpg");
@@ -201,9 +201,12 @@ a:hover {
     background-image: url("images/fagin.jpg");
   }
   .slide-8 {
-    background-image: url("images/endgame.jpg")
+    background-image: url("images/pic08.jpg");
   }
-  .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8 {
+  .slide-9 {
+    background-image: url("images/pic09.jpg");
+  }
+  .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8, .slide-9 {
     background-size: contain;
     background-repeat: no-repeat;
   }

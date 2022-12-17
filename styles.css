@@ -477,3 +477,84 @@ a:hover {
       z-index: 0;
     }
   }
+
+
+
+
+
+
+
+@media (min-width: 200px) {
+  .banner {
+    position: static;
+    flex-direction: column;
+    width: 90%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .seperator {
+    height: 5px;
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+  .banner {
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 97%;
+    height: 100px
+  }
+
+  .seperator {
+    height: 120px;
+  }
+
+  .box {
+    width: 97%;
+    height: 60vw;
+  }
+
+  .bio .text {
+    font-size: 1.5vw;
+  }
+
+  .slider .quote {
+    font-size: 2.5vw;
+  }
+
+  .slider .source {
+    font-size: 2.5vw;
+  }
+}
+
+
+
+@media (min-width: 1440px) {
+  .banner {
+    width: 1396px;
+  }
+
+  .box {
+    width: 1380px;
+    height: 864px;
+  }
+
+  .bio .text {
+    font-size: 22px;
+  }
+
+  .slider .quote {
+    font-size: 36px;
+  }
+
+  .slider .source {
+    font-size: 36px;
+  }
+}

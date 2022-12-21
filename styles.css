@@ -540,6 +540,10 @@ a:hover {
     height: 200vw;
   }
 
+  iframe {
+    border-radius: 0;
+}
+
   .slider-container {
     height: 50vh;
   }
@@ -600,6 +604,10 @@ a:hover {
   .bio .text {
     font-size: 1.5vw;
   }
+
+  iframe {
+    border-radius: 50px;
+}
 
   .slider-container {
     height: 60vw;

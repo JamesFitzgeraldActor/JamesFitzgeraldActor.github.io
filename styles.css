@@ -192,7 +192,7 @@ a:hover {
     background-image: url("images/divide.png");
   }
   .slide-2 {
-    background-image: url("images/watson.png");
+    background-image: url("images/headshot2.jpg");
   }
   .slide-3 {
     background-image: url("images/pic03.jpg");
@@ -204,7 +204,7 @@ a:hover {
     background-image: url("images/pic05.jpg");
   }
   .slide-6 {
-    background-image: url("images/headshot2.jpg");
+    background-image: url("images/watson.png");
   }
   .slide-7 {
     background-image: url("images/fagin.jpg");
@@ -215,7 +215,16 @@ a:hover {
   .slide-9 {
     background-image: url("images/pic09.jpg");
   }
-  .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8, .slide-9 {
+  .slide-10 {
+    background-image: url("images/pic10.jpg");
+  }
+  .slide-11 {
+    background-image: url("images/Autolycus.jpg");
+  }
+  .slide-12 {
+    background-image: url("images/Jacques.jpeg");
+  }
+  .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8, .slide-9, .slide-10, .slide-11, .slide-12 {
     background-size: contain;
     background-repeat: no-repeat;
   }

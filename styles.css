@@ -138,9 +138,9 @@ a:hover {
 
   /* Image Carousel */
 
-  img {
+  /* img {
     width: 97%;
-  }
+  } */
   .slider-container {
     height: 600px;
     height: 60vw;
@@ -651,6 +651,10 @@ a:hover {
 
   .bio .text {
     font-size: 22px;
+  }
+
+  .slider-container {
+    width: 1380px;
   }
 
   .slider .quote {

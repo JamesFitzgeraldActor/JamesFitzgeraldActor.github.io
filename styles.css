@@ -138,9 +138,9 @@ a:hover {
 
   /* Image Carousel */
 
-  /* img {
-    max-width: 100%;
-  } */
+  img {
+    width: 97%;
+  }
   .slider-container {
     height: 600px;
     height: 60vw;
@@ -538,6 +538,15 @@ a:hover {
   .bio {
     height: 100vh;
   }
+
+  .slider-container {
+    height: 50vh;
+  }
+
+  .slide {
+    height: 50vh;
+    padding: 0;
+  }
 }
 
 
@@ -581,6 +590,16 @@ a:hover {
 
   .bio .text {
     font-size: 1.5vw;
+  }
+
+  .slider-container {
+    height: 60vw;
+  }
+
+  .slide {
+    height: 50vw;
+    padding: 8em 1em 0;
+    padding: auto;
   }
 
   .slider .quote {

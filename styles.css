@@ -518,6 +518,7 @@ a:hover {
     justify-content: center;
     width: 99%;
     height: 90vh;
+    height: 200vw;
   }
 
   .text {
@@ -536,7 +537,7 @@ a:hover {
     font-size: 16px;
   }
   .bio {
-    height: 100vh;
+    height: 200vw;
   }
 
   .slider-container {
@@ -546,6 +547,14 @@ a:hover {
   .slide {
     height: 50vh;
     padding: 0;
+  }
+
+  .slider .quote {
+    font-size: 16px;
+  }
+
+  .slider .source {
+    font-size: 20px;
   }
 }
 

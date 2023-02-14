@@ -2,9 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #121212;
+    background: #050606;
     font-family: Arial, Helvetica, sans-serif;
-    color: #f9f9f9;
+    color: #D8D7D5;
 }
 
 .seperator {
@@ -22,7 +22,7 @@ body {
     height: 100px;
     background: linear-gradient(to right, #191919, #232323);
     border-radius: 50px;
-    color: #f9f9f9;
+    color: #FDFDFD;
     font-family: 'Poppins', sans-serif;
     z-index: 1000;
     box-shadow: 4px 4px 20px 2px #000000ff;
@@ -38,7 +38,7 @@ body {
     /* width: 97%; */
     /* height: 700px;
     height: 60vw; */
-    border: 2px solid #f9f9f9;
+    border: 2px solid #D8D7D5;
     background: #343434;
 }
 
@@ -110,11 +110,11 @@ iframe {
 }
 
 a {
-    color: #f9f9f9;
+    color: #FDFDFD;
 }
 
 a:visited {
-    color: #f9f9f9;
+    color: #FDFDFD;
 }
 
 a:hover {
@@ -149,6 +149,7 @@ a:hover {
     overflow: hidden;
     text-align: center;
     border: 2px solid white;
+    border: 2px solid #D8D7D5;
   }
   .menu {
     position: absolute;
@@ -222,7 +223,7 @@ a:hover {
     background-image: url("images/Autolycus.jpg");
   }
   .slide-12 {
-    background-image: url("images/Jacquis.jpeg");
+    background-image: url("images/jacques2023.jpeg");
   }
   .slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6, .slide-7, .slide-8, .slide-9, .slide-10, .slide-11, .slide-12 {
     background-size: contain;
